@@ -5,7 +5,7 @@
   --foreground: #171717;
 } */
 
-@theme inline {
+/* @theme inline {
   --font-display: var(--font-display), serif;
   --color-background: hsl(45deg 30.77% 94.9%);  
   --color-surface: hsl(36deg 30.86% 84.12%);  
@@ -15,4 +15,17 @@
   --color-text: rgb(43 43 43); 
   --color-text-strong: rgb(0 0 0);      
   --color-text-accent: rgb(134 179 179); 
+} */
+
+@theme {
+  --font-display: var(--font-display), serif;
+  --font-body: var(--font-body), sans-serif;
+
+  --color-surface: #212529;
+  --color-background: #E8DFDD;
+  --color-accent: #DCC5C0;
+
+  --color-text: #2E2630;
+  --color-text-strong: #1A1520;
+  --color-text-accent: #B08968;
 }

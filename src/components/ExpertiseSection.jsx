@@ -1,18 +1,16 @@
 const leftColumn = [
-    "Dissociation",
+    "Anxiety",
+    "Panic",
     "Trauma",
-    "Family conflict",
-    "Special needs parenting",
-    "Depression",
-    "Marriage",
+    "Burnout",
+    "Perfectionism",
 ];
 
 const rightColumn = [
-    "Anxiety",
-    "Relationships",
-    "Children",
-    "Teens",
-    "Intimacy & connection",
+    "CBT",
+    "Mindfulness-Based Therapy",
+    "Body-Oriented Therapy",
+    "EMDR",
     "...and more.",
 ];
 
@@ -23,7 +21,7 @@ export default function ExpertiseSection() {
                 <div className="grid gap-16 lg:grid-cols-[1fr_1fr_1fr] lg:gap-x-16 xl:gap-x-20">
                     <div className="lg:pt-1">
                         <h2 className="font-display text-5xl leading-[1.05] tracking-[-0.02em] text-text-strong sm:text-6xl lg:text-[2.5rem]">
-                        Our areas of
+                        My areas of
                         <br />
                         <span className="text-text-accent italic">expertise</span>
                         </h2>

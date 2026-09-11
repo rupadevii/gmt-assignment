@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ScheduleAppointmentSection() {
     return (
-        <section className="overflow-hidden bg-surface/35 py-16 sm:py-20 lg:py-32">
+        <section className="overflow-hidden bg-accent py-16 sm:py-20 lg:py-32">
             <div className="mx-auto max-w-[1600px]">
                 <div className="grid min-h-162.5 items-start lg:grid-cols-[195px_minmax(0,1fr)_565px]">
                 
@@ -33,13 +33,7 @@ export default function ScheduleAppointmentSection() {
 
                     <div className="mt-10 max-w-155">
                     <p className="text-[16px] leading-[2.03] text-text/80 sm:text-base">
-                        Coming to therapy is a courageous decision, and connecting with
-                        the right kind of therapist makes all the difference. We
-                        understand that your journey is personal, and we&apos;re here to
-                        support you with care and understanding every step of the way.
-                        Each member of our team brings dedicated expertise and a
-                        commitment to support you in your struggles. We want you to feel
-                        prioritized, understood, and empowered.
+                        Reaching out is a courageous first step. I offer both in-person sessions at my Santa Monica office and telehealth appointments across California, so we can work together in whatever way fits your life.
                     </p>
 
                     <p className="mt-6 text-[15px] leading-loose text-text/80 sm:text-base">
@@ -57,7 +51,7 @@ export default function ScheduleAppointmentSection() {
 
                 <div className="relative hidden h-161.25 w-full lg:block">
                     <Image
-                        src="/book.webp"
+                        src="/images/minimalist-morning-workspace-stockcake.jpg"
                         alt="Family spending time together on the beach"
                         fill
                         priority

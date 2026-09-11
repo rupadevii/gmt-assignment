@@ -3,37 +3,37 @@ import Link from "next/link";
 const specialties = [
     {
         number: "01",
-        title: "Trauma",
+        title: "Anxiety & Panic Therapy",
         description:
-        "We don't always know when and how we've experienced trauma. In therapy, we'll work together to help you process your past, understand what's causing you to stay stuck, and regain a sense of safety, control, and hope. You don't have to carry your burdens alone.",
+        "Constant worry, racing thoughts, or a body that won't relax; anxiety and panic can make you feel like you're always bracing for the next thing to go wrong. Using CBT and mindfulness-based techniques, we work to calm the nervous system and quiet the overthinking, so you can feel steady again.",
         href: "/specialties/trauma",
     },
     {
         number: "02",
-        title: "Dissociation",
+        title: "Trauma Therapy & EMDR",
         description:
-        "The feeling of losing time, hearing conflicting voices, or questioning your sense of self can be overwhelming. In therapy, we'll help you understand these experiences, recognize your own triggers, and create a sense of balance and identity so that you can feel more grounded.",
+        "Whether trauma stems from a single event or long-standing patterns from childhood or chronic stress, healing starts with safety. I use EMDR and body-oriented approaches, paced carefully, to help you feel more regulated in daily life not just during our sessions.",
         href: "/specialties/dissociation",
     },
     {
         number: "03",
-        title: "EMDR",
+        title: "Burnout & Perfectionism Support",
         description:
-        "Eye Movement Desensitization and Reprocessing is a powerful therapeutic technique that helps process and heal trauma by reworking how painful memories are stored in your brain. This allows you to find relief and move toward lasting healing.",
+        "If you're an entrepreneur, creative, or professional feeling disconnected after years of pushing through stress, therapy can be a place to slow down and rebuild sustainable habits without losing the drive that matters to you.",
         href: "/methods/emdr",
     },
     {
         number: "04",
-        title: "Special Needs Parenting",
-        description:
-        "Parenting a child with special needs presents unique challenges and complex emotions. We provide compassionate support through lived experience and expertise to help you navigate this journey with tools, understanding, and self-care.",
-        href: "/specialties/special-needs-parenting",
-    },
+        title: "In-Person & Telehealth Therapy",
+        description: 
+        "Whether you'd rather meet face-to-face or connect from anywhere in California, therapy should fit your life not the other way around. I offer in-person sessions from my calm, private Santa Monica office, along with secure telehealth appointments for clients across the state.",
+        href: "/methods/inperson"
+    }
 ];
 
 export default function SpecialtiesSection() {
     return (
-        <section className="bg-white py-24 sm:py-32 lg:py-40">
+        <section className="bg-background py-24 sm:py-32 lg:py-40">
             <div className="mx-auto max-w-375 px-6 sm:px-10 lg:px-16">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.75fr_2fr] lg:gap-20 xl:gap-28">
                 

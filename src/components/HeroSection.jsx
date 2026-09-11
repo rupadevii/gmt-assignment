@@ -9,7 +9,7 @@ export default function HeroSection() {
                     <div className="relative w-full self-stretch">
                         <div className="relative h-full min-h-130 overflow-hidden lg:min-h-195">
                             <Image
-                                src="/Hero-section.webp"
+                                src="/images/peaceful-window-moment-stockcake.jpg"
                                 alt="Family spending time together outdoors"
                                 fill
                                 priority
@@ -22,25 +22,24 @@ export default function HeroSection() {
                     <div className="relative flex min-h-140 items-center px-6 sm:px-10 lg:min-h-195 lg:pl-20 lg:pr-0 xl:pl-28">
                         <div className="relative z-10 max-w-4xl">
                             <p className="mb-12 text-[15px] font-medium uppercase tracking-[0.15em] text-text">
-                                Online & In-Person Counseling in
+                                Anxiety & Trauma Therapy
                                 <br />
-                                Newbury Park & Across CA
+                                in Santa Monica, CA
                             </p>
 
                             <h1 className="lg:mt-37.5 max-w-3xl font-display text-4xl font-normal leading-[1.3] tracking-[-0.02em] text-text sm:text-5xl lg:text-6xl xl:text-[52px]">
-                                Rebuild your foundation
+                                Quiet the overthinking
                                 <br />
-                                on solid ground and finally
+                                and finally
                                 <br />
-                                begin to{" "}
+                                feel steady in your own {" "}
                                 <span className="text-text-accent italic">
-                                thrive.
+                                life.
                                 </span>
                             </h1>
 
                             <p className="mt-8 max-w-md text-[18px] leading-7 text-text">
-                                Specialized therapy for adults, couples, teens, and children to
-                                reflect, heal, and grow.
+                                Anxiety, trauma, and burnout therapy for high-achieving adults for people who look fine on the outside but feel exhausted, on edge, or stuck bracing for what&apos;s next.
                             </p>
 
                             <div className="mt-9">
@@ -62,10 +61,10 @@ export default function HeroSection() {
                         >
                             <div className="relative aspect-3/4 overflow-hidden">
                                 <Image
-                                    src="/Hero-section-2.webp"
+                                    src="/images/serene-forest-path-stockcake.jpg"
                                     alt="Gentle ocean waves on a sandy beach"
                                     fill
-                                    className="object-cover object-right"
+                                    className="object-cover object-right brightness-75"
                                     sizes="30vw"
                                 />
                             </div>

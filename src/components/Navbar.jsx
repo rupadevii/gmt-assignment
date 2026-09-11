@@ -83,10 +83,10 @@ export default function Navbar() {
             <div className="mx-auto flex h-26 max-w-7xl items-center justify-between px-6 lg:px-2">
                 <Link href="/" className="flex flex-col leading-none">
                 <span className="font-display text-4xl tracking-[0.08em] text-text sm:text-2xl">
-                    Conejo Valley
+                    Dr. Maya Reynolds
                 </span>
                 <span className="mt-1 text-[10px] font-medium tracking-[0.25em] text-text-accent">
-                    FAMILY COUNSELING
+                    Licensed Clinical Psychologist
                 </span>
                 </Link>
 
@@ -97,7 +97,7 @@ export default function Navbar() {
                 >
                     ABOUT
                 </Link>
-                <Dropdown label="Our Team" items={team} />
+                <Dropdown label="Approach" items={team} />
                 <Dropdown label="Specialties" items={specialties} />
                 <Dropdown label="Methods" items={methods} />
 

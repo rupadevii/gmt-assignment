@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ApproachSection() {
     return (
-        <section className="overflow-hidden bg-strong py-16 sm:py-20 lg:py-0">
+        <section className="overflow-hidden bg-accent py-16 sm:py-20 lg:py-0">
             <div className="mx-auto max-w-[1600px]">
                 <div className="grid lg:min-h-195 lg:grid-cols-[1fr_1fr_0.75fr]">
                     <div className="col-span-2 px-6 py-16 sm:px-10 lg:px-16 lg:py-16 xl:px-20">
@@ -11,25 +11,18 @@ export default function ApproachSection() {
                         </p>
 
                         <h2 className="mt-28 max-w-4xl font-display text-5xl leading-[1.05] tracking-[-0.03em] text-text-strong sm:text-6xl lg:text-7xl xl:text-[4.5rem]">
-                        We&apos;re here to make a difference.
+                        I&apos;m here to help you feel steady again.
                         </h2>
 
                         <div className="mt-16 grid gap-12 md:grid-cols-2 lg:mt-16 lg:gap-16 xl:gap-20">
                             <div>
                                 <p className="text-[14px] font-medium uppercase leading-8 tracking-[0.16em] text-text">
-                                    The clients we work with are balancing so many things at
-                                    once, it&apos;s often hard for them to put themselves first.
+                                    Clients I work with are often holding a lot at once, and it&apos;s easy to put yourself last.
                                 </p>
 
                                 <div className="mt-5 text-[16px] leading-8 text-text">
                                 <p>
-                                    Here, your needs are always top priority. Our team takes
-                                    the time to deeply listen to our clients in order to truly
-                                    understand their story and their struggles. We recognize
-                                    that no two people are the same and that personalized
-                                    therapy means an intentional, tailored approach. You won&apos;t
-                                    find anything “one-size-fits-all” here. If you&apos;re ready to
-                                    do the work, we&apos;re ready to help.
+                                    Sessions are structured enough to feel supportive, while still leaving room for reflection and depth. I take a warm, collaborative, grounded approach - no one-size-fits-all treatment plans. My goal isn&apos;t just symptom relief; it&apos;s helping you build real insight, resilience, and a stronger relationship with yourself over time.
                                 </p>
                                 </div>
                             </div>
@@ -52,7 +45,7 @@ export default function ApproachSection() {
 
                     <div className="relative min-h-130 lg:min-h-full">
                         <Image
-                            src="/difference.webp"
+                            src="/images/woman.jpg"
                             alt="Woman and child spending time together on the beach"
                             fill
                             className="object-cover"

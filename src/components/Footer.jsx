@@ -27,17 +27,15 @@ export default function Footer() {
                 
                 <div>
                     <p className="font-display text-[3.5rem] leading-none tracking-[-0.035em] text-text-strong sm:text-[4rem]">
-                        Conejo Valley
+                        Dr. Maya Reynolds
                     </p>
 
                     <p className="mt-3 text-[17px] uppercase tracking-[0.38em] text-text-accent">
-                        Family Counseling
+                        Licensed Clinical Psychologist 
                     </p>
 
                     <p className="mt-6 max-w-110 text-[16px] leading-loose text-text/85">
-                    We want to make getting started simple. You&apos;re welcome to
-                    come into our office in Newbury Park or schedule virtual
-                    appointments from anywhere in CA—whatever works best for you.
+                    Whether you&apos;d like to meet in person at my Santa Monica office or connect virtually from anywhere in California, getting started is simple.
                     </p>
                 </div>
 
@@ -84,11 +82,10 @@ export default function Footer() {
 
                     <div className="mt-5 text-[16px] leading-7 text-text">
                         <address className="not-italic">
-                            925 Broadbeck Dr
+                            123th Street 45 W
                             <br />
-                            Suites 200 and 225
+                            Santa Monica, CA 90401
                             <br />
-                            Newbury Park, CA 91320
                         </address>
 
                         <a
@@ -106,15 +103,14 @@ export default function Footer() {
                         </a>
 
                         <p className="mt-5 max-w-75 italic leading-7 text-text/75">
-                            Serving Thousand Oaks, Westlake Village, Camarillo, Moorpark,
-                            &amp; Simi Valley
+                            Serving Santa Monica and clients throughout California via telehealth
                         </p>
                     </div>
                 </div>
                 </div>
             </div>
 
-            <div className="bg-text-accent px-6 py-4 sm:px-10 lg:px-16 xl:px-20">
+            <div className="bg-surface px-6 py-4 sm:px-10 lg:px-16 xl:px-20">
                 <div className="mx-auto max-w-375">
                     <div className="flex flex-wrap items-center gap-x-1 text-[14px] text-background">
                         <Link
