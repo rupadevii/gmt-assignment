@@ -33,7 +33,7 @@ const specialties = [
 
 export default function SpecialtiesSection() {
     return (
-        <section className="bg-background py-24 sm:py-32 lg:py-40">
+        <section className="bg-accent py-24 sm:py-32 lg:py-40">
             <div className="mx-auto max-w-375 px-6 sm:px-10 lg:px-16">
                 <div className="grid grid-cols-1 lg:grid-cols-[0.75fr_2fr] lg:gap-20 xl:gap-28">
                 
