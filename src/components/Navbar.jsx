@@ -45,7 +45,7 @@ function Dropdown({label, items}) {
             <Link
                 key={item}
                 href="#"
-                className="block px-5 py-2.5 text-sm text-text transition-colors hover:bg-surface/40 hover:text-text-accent"
+                className="block px-5 py-2.5 text-sm text-text transition-colors hover:bg-surface/40 hover:text-text-strong/70"
             >
                 {item.toUpperCase()}
             </Link>
@@ -184,7 +184,7 @@ function MobileDropdown({
               <Link
                 key={item}
                 href="#"
-                className="block py-2 text-sm text-text/70 hover:text-text-accent"
+                className="block py-2 text-sm text-text/70 hover:text-text-strong/70"
               >
                 {item}
               </Link>

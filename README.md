@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dr. Maya Reynolds — Therapy Practice Website
 
-## Getting Started
+A homepage clone-and-redesign project built for a front-end development assignment. The original homepage ([Conejo Valley Family Counseling](https://www.conejovalleycounseling.com/home)) was recreated for layout accuracy, then fully redesigned — new theme, new copy, new images — for a fictional solo therapist, **Dr. Maya Reynolds, PsyD**, based in Santa Monica, CA.
 
-First, run the development server:
+**Live site:** https://webpage-pi-jade.vercel.app/
+
+---
+
+## Project Overview
+
+The project was completed in two phases:
+
+1. **Clone** — recreated the original homepage's layout, spacing, structure, and responsiveness as closely as possible.
+2. **Redesign** — replaced the theme, copy, and images using Dr. Reynolds' profile as the single source of truth, and added a new "Our Office" section not present in the original.
+
+All copy is written in first-person, reflecting a solo practice (rather than the original's multi-therapist team structure), and is grounded in specifics from Dr. Reynolds' profile — her specialties (anxiety, panic, trauma, burnout, perfectionism), modalities (CBT, EMDR, mindfulness-based, body-oriented therapy), and client focus (high-achieving, self-aware adults, including entrepreneurs and creatives).
+
+---
+
+## Tech Stack
+
+- **Next.js** (App Router)
+- **Tailwind CSS v4** — theme colors and fonts defined via CSS custom properties in an `@theme` block (`app/globals.css`), rather than a `tailwind.config.js`
+- **next/font/google** — for loading and exposing custom fonts as CSS variables
+
+---
+
+## Design System
+
+**Color palette** (defined as `--color-*` variables in `app/globals.css`):
+- Primary — deep sage
+- Secondary — pale sage-cream
+- Accent — muted teal-sage
+- Text — dark, high-contrast neutral tones for readability
+
+**Typography:**
+- Display font: Lora (serif, warm/editorial feel for headings)
+- Body font: [add body font here]
+
+---
+
+## Sections
+
+- Hero
+- "You keep functioning, but underneath, you're exhausted" (intro)
+- Who I Help (High-Achieving Professionals / Entrepreneurs & Creatives / Trauma Survivors)
+- Areas of Expertise
+- How I Work
+- Specialties (Anxiety & Panic / Trauma & EMDR / Burnout & Perfectionism / In-Person & Telehealth)
+- The Office (new section, not in original)
+- Schedule an Appointment (CTA)
+- Footer
+
+---
+
+## Running Locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

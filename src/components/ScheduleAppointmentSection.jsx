@@ -9,7 +9,7 @@ export default function ScheduleAppointmentSection() {
                 
                 <div className="relative hidden h-128.75 w-full self-end lg:block">
                     <Image
-                        src="/book-2.webp"
+                        src="/images/minimalist-morning-workspace-stockcake.jpg"
                         alt="Quiet corner of a calming therapy office"
                         fill
                         className="object-cover"

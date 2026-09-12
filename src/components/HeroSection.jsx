@@ -28,7 +28,7 @@ export default function HeroSection() {
                             </p>
 
                             <h1 className="lg:mt-37.5 max-w-3xl font-display text-4xl font-normal leading-[1.3] tracking-[-0.02em] text-text sm:text-5xl lg:text-6xl xl:text-[52px]">
-                                Quiet the overthinking
+                                Ease the constant worry
                                 <br />
                                 and finally
                                 <br />

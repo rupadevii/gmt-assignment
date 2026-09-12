@@ -34,7 +34,7 @@ export default function HopeSection() {
                         </div>
                     </div>
                     <div className="relative w-full">
-                        <div className="relative aspect-[16/10] w-full overflow-hidden sm:aspect-4/5 lg:aspect-3/4">
+                        <div className="relative aspect-16/10 w-full overflow-hidden sm:aspect-4/5 lg:aspect-3/4">
                         <Image
                             src="/images/Dr.Maya-Reynolds.png"
                             alt="Dr.Maya Reynolds"
