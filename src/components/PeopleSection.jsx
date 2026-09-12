@@ -47,7 +47,7 @@ export default function PeopleSection() {
                 <div className="grid gap-16 lg:grid-cols-3 lg:gap-10 xl:gap-6 lg:pl-40">
                     {people.map((person, index) => (
                         <article key={person.title}>
-                            <div className="relative lg:aspect-4/5 sm:aspect-3/2 overflow-hidden">
+                            <div className="relative aspect-3/2 overflow-hidden lg:aspect-4/5">
                                 <Image
                                     src={person.image}
                                     alt={person.alt}
