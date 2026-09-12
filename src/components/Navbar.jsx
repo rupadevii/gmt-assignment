@@ -4,33 +4,18 @@ import { useState } from "react";
 import Link from "next/link";
 import { ChevronDown, Menu, X } from "lucide-react";
 
-const team = [
-    "Jennifer Anderson, LMFT",
-    "Candace Bletscher, AMFT",
-    "Heather Williams-Baumgart, AMFT",
-    "Michaela Gorospe, AMFT",
-    "Samantha Johnson, AMFT",
-    "Autumn Bodily, AMFT",
-    "Andrea Watkins, APCC",
-    "Rosa Gomez, AMFT",
-    "Chad Flores, AMFT",
-];
-
 const specialties = [
-    "Dissociation",
-    "Trauma",
-    "Special Needs Parenting",
-    "Couples",
-    "Children & Teens",
-    "Anxiety & Depression",
-    "Adoption",
+    "Anxiety & Panic Therapy",
+    "Trauma Therapy & EMDR",
+    "Burnout & Perfectionism Support",
+    "In-Person & Telehealth Therapy"
 ];
 
 const methods = [
-    "EMDR",
-    "Brainspotting",
-    "Somatic Therapy",
-    "Parts Work Therapy",
+    "CBT",
+    "Mindfulness-Based Therapy",
+    "Body-Oriented Therapy",
+    "EMDR"
 ];
 
 function Dropdown({label, items}) {
@@ -97,7 +82,6 @@ export default function Navbar() {
                 >
                     ABOUT
                 </Link>
-                <Dropdown label="Approach" items={team} />
                 <Dropdown label="Specialties" items={specialties} />
                 <Dropdown label="Methods" items={methods} />
 
@@ -131,12 +115,6 @@ export default function Navbar() {
                 }`}
             >
                 <nav className="space-y-1 px-6 py-5">
-                <MobileDropdown
-                    label="Our Team"
-                    items={team}
-                    open={mobileDropdown === "team"}
-                    onClick={() => toggleMobileDropdown("team")}
-                />
 
                 <MobileDropdown
                     label="Specialties"

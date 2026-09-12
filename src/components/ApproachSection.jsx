@@ -7,7 +7,7 @@ export default function ApproachSection() {
                 <div className="grid lg:min-h-195 lg:grid-cols-[1fr_1fr_0.75fr]">
                     <div className="col-span-2 px-6 py-16 sm:px-10 lg:px-16 lg:py-16 xl:px-20">
                         <p className="text-[16px] font-medium uppercase tracking-[0.22em] text-text">
-                        How we work
+                        How I work
                         </p>
 
                         <h2 className="mt-28 max-w-4xl font-display text-5xl leading-[1.05] tracking-[-0.03em] text-text-strong sm:text-6xl lg:text-7xl xl:text-[4.5rem]">
@@ -29,26 +29,18 @@ export default function ApproachSection() {
 
                             <div className="lg:pt-0.5">
                                 <p className="text-[16px] leading-8 text-text">
-                                    Sometimes we may gently challenge you to look at things
-                                    differently and other times we may explore your emotions, all
-                                    while encouraging you to practice what you&apos;ve learned in your
-                                    daily life. We take what we do seriously because we know how
-                                    important it is for you to heal from what&apos;s hurting you,
-                                    discover a fulfilling life, and build meaningful
-                                    relationships. Our goal is to walk alongside you in this
-                                    journey, offering support and guidance as you uncover your
-                                    strengths and embrace what the future can hold for you.
+                                    I believe therapy works best when you feel respected, understood, and actively involved in the process, not talked at, but worked with. Trauma-focused work in particular is paced carefully, with an emphasis on safety and stabilization first, so healing feels manageable rather than overwhelming. Whether we&apos;re untangling anxious thought patterns or working through what&apos;s kept you on edge for years, my aim is to combine practical tools with depth-oriented work, because lasting change means both feeling better and understanding why.
                                 </p>
                             </div>
                         </div>
                     </div>
 
-                    <div className="relative min-h-130 lg:min-h-full">
+                    <div className="relative aspect-4/5 w-full lg:aspect-auto lg:min-h-full">
                         <Image
                             src="/images/woman.jpg"
-                            alt="Woman and child spending time together on the beach"
+                            alt="Woman"
                             fill
-                            className="object-cover"
+                            className="object-cover object-right"
                             sizes="(max-width: 1024px) 100vw, 30vw"
                         />
                     </div>

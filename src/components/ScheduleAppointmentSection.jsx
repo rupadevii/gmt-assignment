@@ -10,7 +10,7 @@ export default function ScheduleAppointmentSection() {
                 <div className="relative hidden h-128.75 w-full self-end lg:block">
                     <Image
                         src="/book-2.webp"
-                        alt=""
+                        alt="Quiet corner of a calming therapy office"
                         fill
                         className="object-cover"
                         sizes="195px"
@@ -23,10 +23,10 @@ export default function ScheduleAppointmentSection() {
                     </p>
 
                     <h2 className="mt-24 max-w-162.5 font-display text-[clamp(3rem,3.5vw,4.5rem)] leading-[1.35] tracking-tight text-text-strong">
-                        Find a therapist who is the
-                        right fit for{" "}
+                        Ready to feel like
+                        yourself{" "}
                         <span className="font-script text-text-accent italic">
-                            you
+                            again
                         </span>
                         .
                     </h2>
@@ -52,57 +52,13 @@ export default function ScheduleAppointmentSection() {
                 <div className="relative hidden h-161.25 w-full lg:block">
                     <Image
                         src="/images/minimalist-morning-workspace-stockcake.jpg"
-                        alt="Family spending time together on the beach"
+                        alt="Calm, sunlit workspace reflecting a fresh start"
                         fill
                         priority
                         className="object-cover"
                         sizes="565px"
                     />
                 </div>
-                </div>
-            </div>
-
-            <div className="px-6 sm:px-10 lg:hidden">
-                <p className="text-[11px] font-medium uppercase tracking-[0.2em] text-text">
-                Schedule an appointment
-                </p>
-
-                <h2 className="mt-12 font-display text-[clamp(2.8rem,10vw,4rem)] leading-[1.15] tracking-[-0.02em] text-text-strong">
-                Find a therapist who is the right fit for{" "}
-                <span className="font-script text-text-accent">you</span>.
-                </h2>
-
-                <div className="mt-8">
-                <p className="text-[15px] leading-loose text-text/80">
-                    Coming to therapy is a courageous decision, and connecting with
-                    the right kind of therapist makes all the difference. We
-                    understand that your journey is personal, and we&apos;re here to
-                    support you with care and understanding every step of the way.
-                    Each member of our team brings dedicated expertise and a
-                    commitment to support you in your struggles. We want you to feel
-                    prioritized, understood, and empowered.
-                </p>
-
-                <p className="mt-6 text-[15px] leading-loose text-text/80">
-                    Click the button below to schedule an appointment.
-                </p>
-
-                <Link
-                    href="/contact"
-                    className="mt-8 inline-flex h-12.5 min-w-33 items-center justify-center rounded-full border border-text/70 px-7 text-[10px] font-medium uppercase tracking-[0.18em] text-text transition-all duration-300 hover:bg-text hover:text-background"
-                >
-                    Book now
-                </Link>
-                </div>
-
-                <div className="relative mt-16 aspect-4/5 w-full">
-                    <Image
-                        src="/book.webp"
-                        alt="Family spending time together on the beach"
-                        fill
-                        className="object-cover"
-                        sizes="100vw"
-                    />
                 </div>
             </div>
         </section>

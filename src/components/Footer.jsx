@@ -7,16 +7,11 @@ const navigation = [
     { label: "Contact", href: "/contact" },
 ];
 
-const team = [
-    "Jennifer Anderson",
-    "Heather Williams-Baumgart",
-    "Autumn Bodily",
-    "Michaela Gorospe",
-    "Candace Bletscher",
-    "Samantha Johnson",
-    "Andrea Watkins",
-    "Rosa Gomez",
-    "Chad Flores",
+const specialties = [
+    "Anxiety & Panic Therapy",
+    "Trauma Therapy & EMDR",
+    "Burnout & Perfectionism Support",
+    "In-Person & Telehealth Therapy"
 ];
 
 export default function Footer() {
@@ -59,11 +54,11 @@ export default function Footer() {
 
                 <div>
                     <h3 className="text-[14px] font-medium uppercase tracking-[0.2em] text-text-strong">
-                        Our Team
+                        Specialities
                     </h3>
 
                     <div className="mt-5 flex flex-col gap-1">
-                        {team.map((member) => (
+                        {specialties.map((member) => (
                             <Link
                                 key={member}
                                 href="/team"
@@ -92,14 +87,14 @@ export default function Footer() {
                             href="mailto:info@conejovalleycounseling.com"
                             className="mt-1 block transition-colors hover:text-text-accent"
                         >
-                            info@conejovalleycounseling.com
+                            info@mayareynolds.com
                         </a>
 
                         <a
                             href="tel:8052423120"
                             className="block transition-colors hover:text-text-accent"
                         >
-                            805.242.3120
+                            (310) 555-0142
                         </a>
 
                         <p className="mt-5 max-w-75 italic leading-7 text-text/75">
@@ -140,7 +135,7 @@ export default function Footer() {
 
                         <span>|</span>
 
-                        <span>Website by Walker Strategy Co.</span>
+                        <span>Website by Rupa Devi Co.</span>
                     </div>
                 </div>
             </div>

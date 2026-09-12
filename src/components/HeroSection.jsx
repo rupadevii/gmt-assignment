@@ -10,7 +10,7 @@ export default function HeroSection() {
                         <div className="relative h-full min-h-130 overflow-hidden lg:min-h-195">
                             <Image
                                 src="/images/peaceful-window-moment-stockcake.jpg"
-                                alt="Family spending time together outdoors"
+                                alt="Girl sitting by a window"
                                 fill
                                 priority
                                 className="object-cover"
@@ -62,7 +62,7 @@ export default function HeroSection() {
                             <div className="relative aspect-3/4 overflow-hidden">
                                 <Image
                                     src="/images/serene-forest-path-stockcake.jpg"
-                                    alt="Gentle ocean waves on a sandy beach"
+                                    alt="Serene Forest Path"
                                     fill
                                     className="object-cover object-right brightness-75"
                                     sizes="30vw"

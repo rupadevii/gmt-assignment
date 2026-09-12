@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function HopeSection() {
     return (
-        <section className="overflow-hidden bg-background py-20 sm:py-24 lg:py-32">
-            <div className="mx-auto max-w-[1600px]">
+        <section className="overflow-hidden bg-background py-20 sm:py-2 lg:py-32">
+            <div className="mx-auto max-w-[1600px] px-6 sm:px-10 lg:px-16">
                 <div className="mt-16 grid gap-14 lg:mt-20 lg:grid-cols-[minmax(0,1.8fr)_minmax(420px,1fr)] lg:items-start lg:gap-4">
-                    <div className='px-30 pt-20'>
+                    <div className='lg:px-30 lg:pt-18'>
                         <div className="max-w-5xl">
                             <h2 className="font-display text-[clamp(3rem,3.2vw,5.5rem)] font-normal leading-[1.35] tracking-[-0.03em] text-text">
                                 You keep functioning but,
@@ -13,7 +13,7 @@ export default function HopeSection() {
                                 underneath, you are exhausted.
                             </h2>
                         </div>
-                        <div className="grid gap-12 sm:grid-cols-2 lg:gap-5 lg:mt-15">
+                        <div className="grid gap-12 sm:grid-cols-2 lg:gap-5 mt-8 lg:mt-15">
                             <div className="max-w-md">
                                 <p className="text-sm font-medium uppercase leading-7 tracking-[0.13em] text-text">
                                     At my Santa Monica practice
@@ -34,10 +34,10 @@ export default function HopeSection() {
                         </div>
                     </div>
                     <div className="relative w-full">
-                        <div className="relative aspect-4/5 w-full overflow-hidden lg:aspect-3/4">
+                        <div className="relative aspect-[16/10] w-full overflow-hidden sm:aspect-4/5 lg:aspect-3/4">
                         <Image
                             src="/images/Dr.Maya-Reynolds.png"
-                            alt="Peaceful ocean waves meeting the shore"
+                            alt="Dr.Maya Reynolds"
                             fill
                             className="object-cover"
                             sizes="(max-width: 1024px) 100vw, 35vw"

@@ -39,7 +39,7 @@ export default function SpecialtiesSection() {
                 
                 <div className="lg:pt-2">
                     <h2 className="font-display text-4xl leading-[1.15] text-text-strong sm:text-5xl lg:text-[52px]">
-                    Our{" "}
+                    My{" "}
                     <span className="font-script text-text-accent">
                         specialties
                     </span>

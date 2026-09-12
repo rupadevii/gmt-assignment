@@ -13,7 +13,7 @@ const people = [
         title: "Entrepreneurs & Creatives",
         description:
         "Years of pushing through stress can leave you disconnected from yourself. We slow down, reconnect, and build more sustainable ways of living and working.",
-        image: "/images/entrepreneur.jpg",
+        image: "/images/artist-s-sunlit-studio-stockcake.jpg",
         alt: "A couple embracing together outdoors",
         href: "/specialties/couples",
     },
@@ -47,7 +47,7 @@ export default function PeopleSection() {
                 <div className="grid gap-16 lg:grid-cols-3 lg:gap-10 xl:gap-6 lg:pl-40">
                     {people.map((person, index) => (
                         <article key={person.title}>
-                            <div className="relative aspect-4/5 overflow-hidden">
+                            <div className="relative lg:aspect-4/5 sm:aspect-3/2 overflow-hidden">
                                 <Image
                                     src={person.image}
                                     alt={person.alt}

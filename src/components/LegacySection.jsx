@@ -9,7 +9,7 @@ export default function LegacySection() {
                         <div className="relative aspect-4/5 overflow-hidden">
                         <Image
                             src="/images/beautiful.avif"
-                            alt="Family standing together on a beach"
+                            alt="Serene image of a Girl on wood logs"
                             fill
                             className="object-cover"
                             sizes="30vw"
@@ -18,7 +18,7 @@ export default function LegacySection() {
                     </div>
 
                     <div className="max-w-2xl flex">
-                        <h2 className="font-display text-[clamp(3.5rem,3.5vw,6.5rem)] leading-[1.3] tracking-[-0.03em] text-text-strong self-start">
+                        <h2 className="font-display text-[clamp(3.5rem,3.5vw,6.5rem)] leading-[1.3] tracking-[-0.03em] text-text-strong self-start sm:text-center lg:text-left">
                         Honoring what you&apos;ve carried & gently helping you find steady ground again.
                         </h2>
                     </div>
